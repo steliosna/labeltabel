@@ -13,7 +13,7 @@
 #'
 #' @importFrom sjlabelled get_label
 #' @importFrom dplyr rowwise mutate ungroup
-pauli_table <- function(data, stats = FALSE, missings = FALSE) {
+paulitable <- function(data, stats = FALSE, missings = FALSE) {
 
     labels <- sjlabelled::get_label(data, def.value = NA)
 
