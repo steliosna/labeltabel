@@ -12,3 +12,5 @@ RoxygenNote: 7.3.2
 Imports:
     sjlabelled,
     dplyr
+URL: https://github.com/steliosna/labeltabel
+BugReports: https://github.com/steliosna/labeltabel/issues
