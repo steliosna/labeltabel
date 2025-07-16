@@ -1,4 +1,4 @@
-#Install Package
+# Install Package
 install.packages("remotes")  
 remotes::install_github("steliosna/labeltabel")  
 
