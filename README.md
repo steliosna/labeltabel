@@ -1,6 +1,6 @@
 # Install Package
 install.packages("remotes")  
-remotes::install_github("steliosna/labeltabel")  
+remotes::install_github("steliosna/paulitable")  
 
 
 # What does the function do?
