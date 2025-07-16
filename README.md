@@ -5,7 +5,7 @@ remotes::install_github("steliosna/paulitable")
 
 # What does the function do?
 
-pauli_table(dataframe, stats = FALSE, missings = FALSE)
+paulitable(dataframe, stats = FALSE, missings = FALSE)
 
 dataframe: The Dataframe you want to use  
 stats: Set to TRUE if you want mean & range for numeric variables  
