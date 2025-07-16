@@ -2,11 +2,7 @@
 % Please edit documentation in R/pauli_table.R
 \name{paulitable}
 \alias{paulitable}
-\title{Get variable names, labels, and optional summary stats
-Idea was that RSTudio unlike STATA has not a variable viewer which quickly
-lets you see the variables with corresponding variable labels
-This function returns a table of variable names and their variable labels,
-with optional summary statistics like mean, range, and missing percentage.}
+\title{Get variable names, labels, and optional summary stats}
 \usage{
 paulitable(data, stats = FALSE, missings = FALSE)
 }
@@ -21,9 +17,8 @@ paulitable(data, stats = FALSE, missings = FALSE)
 A data frame with variable names, labels, and optional stats
 }
 \description{
-Get variable names, labels, and optional summary stats
-Idea was that RSTudio unlike STATA has not a variable viewer which quickly
-lets you see the variables with corresponding variable labels
-This function returns a table of variable names and their variable labels,
+RStudio unlike STATA has not a Variable-Window which quickly
+lets you see the variables and corresponding variable labels.
+Therefore,  paulitable() let's you create a dataframe of variable names and their variable labels,
 with optional summary statistics like mean, range, and missing percentage.
 }
