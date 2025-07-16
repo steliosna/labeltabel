@@ -2,9 +2,10 @@
 A function to show the variable names and the corresponding variable labels, inspired by the  Variable-Window in Stata.
 
 # Install Package
-install.packages("remotes")  
+```
+#install.packages("remotes")  
 remotes::install_github("steliosna/paulitable")  
-
+```
 
 # Function Structure
 
