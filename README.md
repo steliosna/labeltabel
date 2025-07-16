@@ -1,9 +1,12 @@
+# What is paulitable?
+A function to show the variable names and the corresponding variable labels, inspired by the  Variable-Window in Stata.
+
 # Install Package
 install.packages("remotes")  
 remotes::install_github("steliosna/paulitable")  
 
 
-# What does the function do?
+# Function Structure
 
 paulitable(dataframe, stats = FALSE, missings = FALSE)
 
